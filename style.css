@@ -189,13 +189,13 @@ iframe {
     text-align: center;
     padding: 2px 0;
     margin-top: 10px;
-    height: 150px;
+    height: 220px;
 }
 
 
 
 .rodape h1 {
-    margin: 0;
+    margin: 30px;
     font-size: 2rem;
     color: #fff;
     margin-bottom: 10px;
@@ -213,4 +213,87 @@ video {
     height: 60px;
     margin: 0 10px;
 
+}
+
+@media (max-width:480px) {
+    .links { 
+        gap: 10px;
+        margin-right: 16px;
+        font-size: 13px;
+    }
+
+    .logo {
+       
+        margin-left: 6px;
+    }
+
+    .banner {
+    background: linear-gradient(rgba(44, 24, 16, 0.7), rgba(44, 24, 16, 0.7)),
+        url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') no-repeat center center/cover;
+    display: flex;
+    height: 80dvh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.section-eventos {
+    padding: 80px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20px;
+    height: 400px;
+}
+
+    .banner-conteudo h1 {
+        font-size: 1.5rem;
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    .banner-conteudo p {
+    
+    font-size: 1.2rem;
+    padding: 0 10px;
+}
+
+    .section-eventos ul {
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .container-info {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .rodape h1 {
+    
+    font-size: 1.5rem;
+   
+}
+
+.section-eventos h2 {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+.section-eventos ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 5px;
+}
+
+.section-eventos li {
+
+    padding: 10px;
+    cursor: pointer;
+    width: 300px;
+    font-size: 18px;
+}
+    
 }
